@@ -28,10 +28,10 @@ jobs:
       - name: Run Playwright+Cucumber tests
         run: npm run test
 
-      - name: Upload screenshots
-        if: always()
+      - name: Upload test artifacts
         uses: actions/upload-artifact@v3
         with:
           name: failure-screenshots
           path: screenshots/
+
 
