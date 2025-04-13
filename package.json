@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js --format @cucumber/html-formatter --format progress"
+    "test": "npx cucumber-js --format @cucumber/html-formatter --format progress --format json:report.json"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@cucumber/cucumber": "^11.2.0",
+    "@cucumber/html-formatter": "^21.10.0",
     "@types/node": "^22.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
