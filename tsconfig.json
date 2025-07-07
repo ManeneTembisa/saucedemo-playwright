@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "Node",
+      "types": ["node", "playwright"],
+      "baseUrl": ".",
+      "paths": {
+        "@pages/*": ["pages/*"],
+        "@support/*": ["support/*"]
+      }
+    }
+  }
+  
